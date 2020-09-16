@@ -205,6 +205,7 @@ img {
 .header-upper {
     background: #f5f7fa;
     padding: 15px 0;
+    border-bottom: 1px solid #e6e9ed;
 }
 .header-upper-content {
     display: flex;
@@ -257,6 +258,13 @@ img {
     font-weight: bold;
     color: var(--bg-one);
     text-transform: uppercase;
+    padding: 18px 10px;
+    transition: .3s ease-in-out;
+    border-radius: 4px;
+}
+.main-menu ul li:hover a{
+    background: var(--btn-bg);
+    color: #fff;
 }
 .search-bar span i {
     color: var(--bg-one);
@@ -301,6 +309,12 @@ img {
     background: var(--btn-bg);
     display: inline-block;
     border-radius: 4px;
+    border: 1px solid var(--btn-bg);
+    transition: .3s ease-in-out;
+}
+.single-slider .banner-slider-content a:hover {
+    background: none;
+    border: 1px solid #fff;
 }
 
 /* ========= banner-part ========== */
@@ -404,6 +418,10 @@ img {
     color: var(--foot-color);
     font-size: 15px;
     font-weight: 600;
+    transition: .3s ease-in-out;
+}
+.nxt-page:hover {
+    color: #fff;
 }
 .nxt-page span i {
     font-size: 10px;
@@ -433,6 +451,11 @@ img {
     background: none;
     border: none;
     width: 80%;
+    color: #fff;
+}
+.sub-input input:focus {
+    border: none;
+    outline: none;
 }
 .sub-input input::placeholder {
     color: var(--foot-color);
