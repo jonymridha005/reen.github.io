@@ -452,6 +452,7 @@ img {
     border: none;
     width: 80%;
     color: #fff;
+    border-radius: 4px;
 }
 .sub-input input:focus {
     border: none;
