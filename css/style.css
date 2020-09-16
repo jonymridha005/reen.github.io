@@ -446,13 +446,13 @@ img {
     background: #4e5c6c;
     padding: 5px;
     display: flex;
+    border-radius: 4px;
 }
 .sub-input input{
     background: none;
     border: none;
     width: 80%;
     color: #fff;
-    border-radius: 4px;
 }
 .sub-input input:focus {
     border: none;
